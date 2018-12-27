@@ -1,0 +1,78 @@
+%h1 SpongeBob in Pure CSS
+.bob
+	.sponge
+		.top
+			- 6.times do 
+				.waves
+		.left
+			- 5.times do 
+				.waves
+		.right
+			- 5.times do 
+				.waves
+		.bottom
+			- 5.times do 
+				.waves
+		.shape
+		.blobs
+			- 7.times do 
+				%span
+		.nose
+		.eyelash.right
+			- 3.times do 
+				.lash
+		.eye.right
+			.pupil
+				.dot
+		.eyelash.left
+			- 3.times do 
+				.lash
+		.eye.left
+			.pupil
+				.dot
+		.cheek.left
+			- 3.times do 
+				.freckle
+		.cheek.right
+			- 3.times do 
+				.freckle
+		.dimple.left
+		.dimple.right
+		.mouth
+			.tooth.left
+			.tooth.right
+		.chin.left
+		.chin.right
+	.bottom
+		.collar.left
+		.collar.right
+		.sleeve.left
+		.sleeve.right
+		.arm.left
+		.arm.right
+		.hand.left
+			- 3.times do 
+				.finger
+		.hand.right
+			- 3.times do 
+				.finger
+		.pantsleg.left
+		.pantsleg.right
+		.leg.left
+			.sock
+		.leg.right
+			.sock
+		.foot.left
+			.shoe
+		.foot.right
+			.shoe
+		.border.left
+		.border.right
+		.border.bottom
+		.pants
+			.border
+			.belt
+		.tie-knot
+		.tie-long
+	.shadow
+.sand
